@@ -24,7 +24,7 @@ pip install jedi
 Instead of downloading you can just clone the project to your plugin path:
 ```
 $ mkdir ~/.local/share/gedit/plugins
-$ git clone https://github.com/isamert/gedi.git
+$ git clone https://github.com/andreztz/gedi.git
 ```
 For updating:
 ```
