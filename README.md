@@ -10,7 +10,7 @@ A python code completion plugin for gedit. Built with the Jedi auto completion l
 - Find Definition
 - Some refactoring tools
 
-## Using
+## Install
 - Firstly, you need to install jedi. You can install it from your distro's package manager(search for python-jedi) or you can install it with pip:
 ```
 pip install jedi
@@ -31,3 +31,6 @@ For updating:
 $ cd ~/.local/share/gedit/plugins/gedi
 $ git update
 ```
+
+## Using
+- Just enter some things and the Gedi fill will automatically show some suggestions. Alternatively type `ctrl + space` to start the suggestions box. Press `UP` and` DOWN` to select another suggestion, press `TAB` or` ENTER` to confirm your selection.
