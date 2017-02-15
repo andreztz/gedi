@@ -78,7 +78,8 @@ class GediCompletionProvider(GObject.Object, GtkSource.CompletionProvider):
         return 1
 
     def do_get_activation(self):
-        return GtkSource.CompletionActivation.INTERACTIVE
+        return (GtkSource.CompletionActivation.INTERACTIVE |
+                GtkSource.CompletionActivation.USER_REQUESTED)
 
     def do_populate(self, context):
         #TODO: do async maybe?
