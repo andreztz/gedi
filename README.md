@@ -34,3 +34,9 @@ $ git update
 
 ## Using
 - Just enter some things and the Gedi fill will automatically show some suggestions. Alternatively type `ctrl + space` to start the suggestions box. Press `UP` and` DOWN` to select another suggestion, press `TAB` or` ENTER` to confirm your selection.
+
+- with virtualenv:
+
+```
+$export VIRTUAL_ENV="path to virtualenv"
+```
