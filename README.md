@@ -38,5 +38,7 @@ $ git update
 - with virtualenv:
 
 ```
-$export VIRTUAL_ENV="path to virtualenv"
+$ export VIRTUAL_ENV="path to virtualenv"
+
+$ gedit 
 ```
